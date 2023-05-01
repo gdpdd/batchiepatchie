@@ -4,7 +4,7 @@
 CREATE TABLE task_arns_to_instance_info (
     task_arn     TEXT NOT NULL,
     instance_id  TEXT NOT NULL,
-    public_ip    TEXT NOT NULL,
+    public_ip    TEXT,
     private_ip   TEXT NOT NULL,
     PRIMARY KEY(task_arn, instance_id)
 );
