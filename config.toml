@@ -1,0 +1,10 @@
+host = "0.0.0.0"
+port = 5454
+region = "us-west-2"
+database_host = "{{DB_HOST}}"
+database_port = 5432
+database_username = "{{DB_ADMIN_USERNAME}}"
+database_name = "{{DB_NAME}}"
+database_password = "{{DB_PASSWORD}}"
+frontend_assets = "local"
+
